@@ -15,6 +15,7 @@ class TestDefer < Test::Unit::TestCase
     assert_equal( n, n_times )
   end
 
+
   def test_errbacks
     iterations = 20
     callback_parameter = rand(1..100)
